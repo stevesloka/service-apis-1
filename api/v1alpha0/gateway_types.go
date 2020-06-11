@@ -128,6 +128,9 @@ const (
 
 	// TCPProtocolType accepts TCP sessions.
 	TCPProtocolType ProtocolType = "TCP"
+
+	// UDP ProtocolType accepts UDP sessions.
+	UDPProtocolType ProtocolType = "UDP"
 )
 
 // HostnameMatchType specifies the types of matches that are valid
