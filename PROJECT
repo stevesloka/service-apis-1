@@ -1,0 +1,10 @@
+domain: tanzu.vmware.com
+repo: github.com/vmware-tanzu/service-apis
+resources:
+- group: lbapi
+  kind: Gateway
+  version: v1alpha0
+- group: lbapi
+  kind: GatewayClass
+  version: v1alpha0
+version: "2"
